@@ -122,9 +122,6 @@ for (let index = 0; index < btn.length; index++) {
   
     
     
-    
-
-
 
     
 
