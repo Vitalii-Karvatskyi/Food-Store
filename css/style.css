@@ -1,0 +1,54 @@
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.item{
+    margin: 15px;
+    border: 2px solid black;
+
+    padding: 0 20%;
+    
+
+}
+.item_input{
+    margin: 15px;
+    border: 2px solid black;
+
+    padding: 0 20%;
+    
+
+}
+.item_input::after{
+    content: "*" ;
+    color: red;
+    position: absolute;
+    left: 33%;
+   
+}
+.drop_down{
+    position: relative;
+    display: inline;
+}
+.drop_down:hover .wrap_link{
+    display: block;
+}
+
+.wrap_link{
+    position: absolute;
+    background-color: black;
+    min-width: 100px;
+    z-index: 2;
+    display: none;
+    
+}
+.link_dropdown{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.drop_btn{
+    background-color: blue;
+    color: white;
+}
