@@ -45,6 +45,8 @@ try{
           arrows: false,
           centerMode: true,
           centerPadding: '40px',
+          slidesToShow: 1,
+          slidesToScroll: 1,
         }
       }
     ]
